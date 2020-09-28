@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "3e78820f-975d-48e7-8360-d0d09ebc1b9b",
+    "appType": "clockface",
+    "appDisplayName": "Minimal",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Minimal"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
